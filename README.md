@@ -55,7 +55,7 @@ Line 14 -> add 1 more } after }
 # TASK 2
 ## Q2
 
-/*#include<bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -78,7 +78,7 @@ int main(){
         
     }
     return 0;
-}*/
+}
 
 
 
