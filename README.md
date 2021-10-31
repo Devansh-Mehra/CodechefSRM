@@ -80,7 +80,28 @@ int main(){
     return 0;
 }
 
-## Q
+## Q3
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    char a;
+    
+        for(a='A';a<='Z';a=a+2){
+            
+            if(a=='C' || a=='G' || a=='K' || a=='O' || a=='S' || a=='W'){
+                a=a+32;
+                cout<<a<<endl;
+                a=a-32;
+                
+            }
+            else
+                cout<<a<<endl;
+         }
+}
+
+## Q4
+
 
 
 
