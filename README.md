@@ -21,7 +21,8 @@ Line 10 -> correct statement -> cout<<"*";
 Line 12 -> remove 1 (})
 
 ## Q6
-x is not defined/declared
+Line 2-> invalid syntax
+Line 3-> x is not defined/declared
 
 
 ## Q7
@@ -53,6 +54,14 @@ Line 12 -> one of the = should be removed
 Line 14 -> add 1 more } after }
 
 # TASK 2
+
+## Q1
+
+
+
+
+
+
 ## Q2
 
 #include<bits/stdc++.h>
@@ -86,14 +95,11 @@ using namespace std;
 
 int main(){
     char a;
-    
-        for(a='A';a<='Z';a=a+2){
-            
+    for(a='A';a<='Z';a=a+2){
             if(a=='C' || a=='G' || a=='K' || a=='O' || a=='S' || a=='W'){
                 a=a+32;
                 cout<<a<<endl;
                 a=a-32;
-                
             }
             else
                 cout<<a<<endl;
