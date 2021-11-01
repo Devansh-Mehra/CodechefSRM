@@ -5,6 +5,7 @@
 Error is in the 5th Line -> printf(" Enter a number"4589);
 
 ## Q2
+Line 1 -> correct statemnet -> int *arr
 Line 4 -> if to include all the value in the array loop should be -> for(int i=0;i<len;i++) as len-1 will add sum till 2nd last value and will not include the value at the last position
 Line 7 -> correct statement sum+=*(arr+i)
 
@@ -109,6 +110,56 @@ int main(){
 }
 
 ## Q4
+
+
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    cin>>n;
+    int sq=pow(n,2);
+    
+    int count=0;
+    int c=sq;
+    int b=sq;
+    int num1=0,m=0;
+    while (sq != 0)
+    {
+        sq = sq / 10;
+        count++;
+    }
+    if(count%2!=0){
+        m=count/2 +1;
+    }
+    else{
+        m=count/2;
+    }
+    for(int i=0;i<m;i++){
+         int rem= c%10;
+         num1=rem+10*num1;
+         c = c / 10;
+        
+    }
+    int d=0;
+    while(num1!=0){
+        int rem= num1%10;
+         d=rem+10*d;
+         num1 = num1 / 10;
+    }
+    b=b-num1;
+    int num2=b/pow(10,m);
+    
+    if((d+num2)==n){
+        cout<<"Chefs number"<<endl;
+    }
+    else
+        cout<<"Not Chef Number"<<endl;
+    return 0;
+}    
+    
 
 
 
