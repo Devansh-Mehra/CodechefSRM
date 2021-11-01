@@ -5,6 +5,8 @@
 Error is in the 5th Line -> printf(" Enter a number"4589);
 
 ## Q2
+Line 4 -> if to include all the value in the array loop should be -> for(int i=0;i<len;i++) as len-1 will add sum till 2nd last value and will not include the value at the last position
+Line 7 -> correct statement sum+=*(arr+i)
 
 ## Q3
 Line 4 -> for(int i=1;i<=4;i--) instead of i-- should  be i++ as incrementing value of i from 1 to 4
