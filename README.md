@@ -153,7 +153,7 @@ int main()
     int num2=b/pow(10,m);
     
     if((d+num2)==n){
-        cout<<"Chefs number"<<endl;
+        cout<<"Chef Number"<<endl;
     }
     else
         cout<<"Not Chef Number"<<endl;
